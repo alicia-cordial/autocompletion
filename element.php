@@ -14,7 +14,7 @@
 <body>
    
 
-    <main>
+    <main class="main_element">
         <?php
             include 'includes/database.php';
             include 'includes/get_infos.php';

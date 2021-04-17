@@ -27,11 +27,18 @@ if(isset($_GET['search'])){
     <main class="main_recherche">
       <?php
        while ($donnees = $query->fetch()){ ?>
-         <article>
+         <article class="recherche_cont">
+
+           <section class="recherche_nom">
            <h2> <?php echo $donnees['nom']; ?> </h2>
+           </section>
+
+           <section class="recherche_desc">
            <p> <?php echo substr($donnees['description'], 0, 200) . "... <br>" ; ?>
            <?php echo "<a href='element.php?id=". $donnees['id'] ."'> Lien vers l'article </a>" ."<br>"; ?> </p>
-         </article>
+           </section>
+         
+          </article>
       <?php
     }
   }else{
