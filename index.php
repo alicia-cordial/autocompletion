@@ -12,18 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header_index">
-    <h1><a href="index.php"> Moteur de recherches des philisophes </a></h1>
-    </header>
+
+  <?php include 'includes/header.php'; ?>
+
 
     <main class="main_index">
       <form id="form_autocomplete" class="form_autocomplete" action="recherche.php" method="get">
         <input type="text" name="search" class="input_index" id="philosophes" placeholder="Qui recherchez-vous ?">
       </form>
     </main>
-    <footer class="footer_index">
-    ©Piglet 2021
-    </footer>
+  
+    <?php include 'includes/footer.php'; ?>
+
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

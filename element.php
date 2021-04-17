@@ -12,7 +12,7 @@
   </head>
 </head>
 <body>
-   
+<?php include 'includes/header.php'; ?>
 
     <main class="main_element">
         <?php
@@ -26,7 +26,7 @@
     </main>
 
 
-
+    <?php include 'includes/footer.php'; ?>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 

@@ -22,7 +22,7 @@ if(isset($_GET['search'])){
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
   <body>
- 
+  <?php include 'includes/header.php'; ?>
 
     <main class="main_recherche">
       <?php
@@ -47,7 +47,7 @@ if(isset($_GET['search'])){
 
     </main>
 
-   
+    <?php include 'includes/footer.php'; ?>
 
   </body>
 

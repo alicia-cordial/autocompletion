@@ -37,14 +37,22 @@ body {
     width: 100%;
 }
 
-
-/******************************INDEX*************************************/
-
-.header_index {
+header {
     background-color: lightyellow;
     padding-top: 20PX;
     padding-bottom: 20px;
 }
+
+footer {
+    background-color: lightcyan;
+    padding-top: 20PX;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/******************************INDEX*************************************/
 
 h1 {
     text-align: center;
@@ -57,14 +65,6 @@ a {
 
 .main_index {
     background-color: lavender;
-}
-
-.footer_index {
-    background-color: lightcyan;
-    padding-top: 20PX;
-    padding-bottom: 20px;
-    text-align: center;
-    font-size: 1.2em;
 }
 
 #form_autocomplete {
